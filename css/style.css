@@ -241,11 +241,49 @@ main {
 /* highlights end*/
 
 /* < !-- top section end --> */
+
+/* footer top */
 footer {
-    width: 80px;
-    height: 400px;
-    background-color: red;
-    ;
+    width: 100%;
 }
 
+.footer-details {
+    display: flex;
+    justify-content: center;
+}
+
+.details {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details img {
+
+    width: 483.87px;
+    height: 110px;
+    margin-bottom: 20px;
+}
+
+.social-media {
+    margin-bottom: 20px;
+}
+
+.social-media a {
+    display: inline-block;
+    width: 32px;
+    background-color: aliceblue;
+    height: 32px;
+    border-radius: 50%;
+    color: #969BAB;
+}
+
+.fab,
+.far {
+    margin: 6.5px;
+    font-size: 20px;
+}
+
+/* footer end */
 /* < !-- main start --> */
